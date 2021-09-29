@@ -50,16 +50,6 @@ void Point::Display() const
 	cout << "===================================================================================" << endl << endl;
 }
 
-/*
-string Point::toStr() const
-{
-	stringstream sout;
-	sout << "x = " << x << endl; 
-	sout << "y = " << y << endl; 
-	return sout.str(); 
-}
-*/
-
 double Point::distanceToPoint(Point point)  const // work good
 {
 	return sqrt(pow(point.getX() - x, 2)
