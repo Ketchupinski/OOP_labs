@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Arsen\source\repos\OOP_1\OOP_1\Source.cpp(30,21): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Arsen\source\repos\OOP_1\OOP_1\Source.cpp(30,18): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  OOP_1.vcxproj -> C:\Users\Arsen\source\repos\OOP_1\Debug\OOP_1.exe
