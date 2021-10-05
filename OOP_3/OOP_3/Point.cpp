@@ -1,5 +1,12 @@
 #include "Point.h"
 
+int Point::Count = 0; // initialize static field 
+
+Point::Point() {
+	this->x = 0;
+	this->y = 0;
+	Count++; // count objects
+}
 
 void Point::setX(int _x) 
 {
@@ -12,20 +19,26 @@ void Point::setY(int _y)
 }
 
 
-double Point::distanceToStartCoordinate()  const
+double distanceToStartCoordinate(Point value) // friend function
 {
-    return sqrt((x * x) + (y * y)); // work good
+    return sqrt((value.x * value.x) + (value.y * value.y)); 
 }
 
 void Point::toPolar(double& r, double& q) {
-	r = sqrt(x * x + y * y); q = atan(y / x); // work good
+	r = sqrt(x * x + y * y);
+	if (x == 0) {
+		q = 0;
+	}
+	else {
+		q = atan(y / x);
+	}
 }
 
 bool Point::Init(int x, int y)
 {
 	setX(x);
 	setY(y);
-	return (x != NULL && y != NULL);
+	return true;
 }
 
 void Point::Read()
@@ -49,18 +62,17 @@ void Point::Display() const
 	cout << "y: " << y << endl << endl;
 	cout << "===================================================================================" << endl << endl;
 }
-
-double Point::distanceToPoint(Point point)  const // work good
-{
-	return sqrt(pow(point.getX() - x, 2)
+ 
+double Point::PointToPoint(Point p1, Point p2) {
+	return sqrt(pow(p2.getX() - p1.getX(), 2)
 		+
-		pow(point.getY() - y, 2) );
+		pow(p2.getY() - p1.getY(), 2));
 }
 
-void Point::comprasionStartCordinate(Point point) const
+void comprasionStartCordinate(Point p1, Point p2) // friend func
 {
-	double first_dist = distanceToStartCoordinate();
-	double second_dist = point.distanceToStartCoordinate();
+	double first_dist = distanceToStartCoordinate(p1); // friend func at friend func :)
+	double second_dist = distanceToStartCoordinate(p2);
 	cout << endl << endl;
 	if (first_dist > second_dist) {
 		cout << "The first point is " << first_dist - second_dist << " farther from the start of cordinate than second!" << endl;
