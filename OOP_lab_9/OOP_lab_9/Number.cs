@@ -5,7 +5,7 @@ using System;
 namespace OOP_lab_9 {
     public class Number
     {
-        protected double num;
+        private double num;
 
         public Number()
         {
@@ -40,7 +40,7 @@ namespace OOP_lab_9 {
         public void Read()
         {
             Console.WriteLine("Input double number: ");
-            double read = Convert.ToInt32(Console.ReadLine());
+            double read = Convert.ToDouble(Console.ReadLine());
             var temp = new Number(read);
             this.num = temp.num;
         }
@@ -69,9 +69,9 @@ namespace OOP_lab_9 {
         }
 
         public static
-            Number operator +(Number a, Number b)
+            Number operator -(Number a, Number b)
         {
-            return new Number(a.num + b.num);
+            return new Number(a.num - b.num);
         }
     }
 

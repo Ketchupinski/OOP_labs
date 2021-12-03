@@ -16,25 +16,33 @@ namespace OOP_lab_9
         public static void Main(string[] args)
         {
             var x = new Number();
-            var z = new Number();
+            Console.WriteLine("Number x:");
             x.Read();
-            z.Read();
             x.Display();
+            
+            Console.WriteLine();
+            var z = new Number();
+            Console.WriteLine("Number z:");
+            z.Read();
             z.Display();
-            var d = x + z;
+            
+            Console.WriteLine("\nx - z:");
+            var d = x - z;
             d.Display();
+            
+            Console.WriteLine("\nx * z");
             d = x * z;
             d.Display();
 
+            Console.WriteLine("\nReal number r:");
             var r = new Real();
-            var p = new Real();
             r.Read();
-            p.Read();
             r.Display();
-            p.Display();
             
-            Console.WriteLine(r.PowerPi());
-            Console.WriteLine("Input root: ");
+            
+            Console.WriteLine("\nPowerPi: " + r.PowerPi());
+            
+            Console.WriteLine("\nInput root: ");
             var root = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(r.Root(root));
         }

@@ -1,0 +1,6 @@
+C:\Users\Arsen\RiderProjects\Lab10\Lab10\bin\Debug\Lab10.exe
+C:\Users\Arsen\RiderProjects\Lab10\Lab10\bin\Debug\Lab10.pdb
+C:\Users\Arsen\RiderProjects\Lab10\Lab10\obj\Debug\Lab10.csproj.AssemblyReference.cache
+C:\Users\Arsen\RiderProjects\Lab10\Lab10\obj\Debug\Lab10.csproj.CoreCompileInputs.cache
+C:\Users\Arsen\RiderProjects\Lab10\Lab10\obj\Debug\Lab10.exe
+C:\Users\Arsen\RiderProjects\Lab10\Lab10\obj\Debug\Lab10.pdb

@@ -9,41 +9,44 @@ namespace OOP_lab_9
     {
         public Real()
         {
-            this.num = 0;
+            SetNum(0);
         }
 
         public Real(double num)
         {
-            this.num = num;
+            SetNum(num);
         }
 
         public Real(Real n)
         {
-            this.num = n.num;
+            this.SetNum(n.GetNum());
         }
 
-        ~Real() {}
+        ~Real()
+        {
+            SetNum(0);
+        }
 
         public double PowerPi()
         {
-            return Math.Pow(Math.PI, num);
+            return Math.Pow(Math.PI, GetNum());
         }
 
-        public double Root(int power)
+        public double Root(double power)
         {
-            return Math.Pow(this.num, 1 / power);
+            return Math.Pow(this.GetNum(), 1 / power);
         }
         
         public static
-            Number operator *(Real a, Real b)
+            Real operator *(Real a, Real b)
         {
-            return new Number(a.num * b.num);
+            return new Real(a.GetNum() * b.GetNum());
         }
 
         public static
-            Number operator +(Real a, Real b)
+            Real operator -(Real a, Real b)
         {
-            return new Number(a.num + b.num);
+            return new Real(a.GetNum() + b.GetNum());
         }
         
     }
