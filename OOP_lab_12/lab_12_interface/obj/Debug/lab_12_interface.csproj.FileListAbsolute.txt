@@ -1,0 +1,6 @@
+C:\Users\Arsen\RiderProjects\OOP_lab_12\lab_12_interface\bin\Debug\lab_12_interface.exe
+C:\Users\Arsen\RiderProjects\OOP_lab_12\lab_12_interface\bin\Debug\lab_12_interface.pdb
+C:\Users\Arsen\RiderProjects\OOP_lab_12\lab_12_interface\obj\Debug\lab_12_interface.csproj.AssemblyReference.cache
+C:\Users\Arsen\RiderProjects\OOP_lab_12\lab_12_interface\obj\Debug\lab_12_interface.csproj.CoreCompileInputs.cache
+C:\Users\Arsen\RiderProjects\OOP_lab_12\lab_12_interface\obj\Debug\lab_12_interface.exe
+C:\Users\Arsen\RiderProjects\OOP_lab_12\lab_12_interface\obj\Debug\lab_12_interface.pdb

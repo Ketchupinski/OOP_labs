@@ -1,0 +1,6 @@
+C:\Users\Arsen\RiderProjects\OOP_lab_12\OOP_lab_12\bin\Debug\OOP_lab_12.exe
+C:\Users\Arsen\RiderProjects\OOP_lab_12\OOP_lab_12\bin\Debug\OOP_lab_12.pdb
+C:\Users\Arsen\RiderProjects\OOP_lab_12\OOP_lab_12\obj\Debug\OOP_lab_12.csproj.AssemblyReference.cache
+C:\Users\Arsen\RiderProjects\OOP_lab_12\OOP_lab_12\obj\Debug\OOP_lab_12.csproj.CoreCompileInputs.cache
+C:\Users\Arsen\RiderProjects\OOP_lab_12\OOP_lab_12\obj\Debug\OOP_lab_12.exe
+C:\Users\Arsen\RiderProjects\OOP_lab_12\OOP_lab_12\obj\Debug\OOP_lab_12.pdb

@@ -1,0 +1,6 @@
+C:\Users\Arsen\RiderProjects\OOP_13\OOP_13\bin\Debug\OOP_13.exe
+C:\Users\Arsen\RiderProjects\OOP_13\OOP_13\bin\Debug\OOP_13.pdb
+C:\Users\Arsen\RiderProjects\OOP_13\OOP_13\obj\Debug\OOP_13.csproj.AssemblyReference.cache
+C:\Users\Arsen\RiderProjects\OOP_13\OOP_13\obj\Debug\OOP_13.csproj.CoreCompileInputs.cache
+C:\Users\Arsen\RiderProjects\OOP_13\OOP_13\obj\Debug\OOP_13.exe
+C:\Users\Arsen\RiderProjects\OOP_13\OOP_13\obj\Debug\OOP_13.pdb
